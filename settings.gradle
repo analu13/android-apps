@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "android-apps"
 include ':app'
+include ':bookworm'
+include ':the-movie-challenge'
+include ':task-this'
