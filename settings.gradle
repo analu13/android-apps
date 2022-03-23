@@ -13,9 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "android-apps"
-include ':compose'
 include ':bookworm'
 include ':the-movie-challenge'
 include ':task-this'
-include ':dagger'
 include ':learning'
