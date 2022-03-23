@@ -11,7 +11,7 @@ android {
     compileSdk = 32
 
     defaultConfig {
-        applicationId = "dev.analuiza.dagger_course"
+        applicationId = "dev.analuiza.learning"
         minSdk = 26
         targetSdk = 32
         versionCode = 1
@@ -39,7 +39,6 @@ android {
 }
 
 dependencies {
-
     //kotlin
     implementation(Dependencies.kotlin_standard_library)
     implementation(Dependencies.kotlin_reflect)
@@ -50,14 +49,11 @@ dependencies {
 
     //dependencies
     implementation(Dependencies.dagger)
-    annotationProcessor(Dependencies.dagger_compiler)
+    kapt(Dependencies.dagger_compiler)
 
 
     //tests
     testImplementation(TestDependencies.junit4)
     androidTestImplementation(TestDependencies.espresso_core)
     androidTestImplementation(TestDependencies.androidx_test_ext)
-
-
 }
-
