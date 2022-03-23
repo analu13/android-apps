@@ -1,0 +1,1 @@
+/Users/analulisboa/Projects/androidapps/buildSrc/build/classes/kotlin/main/dependencies/Dependencies.class:/Users/analulisboa/Projects/androidapps/buildSrc/build/classes/kotlin/main/dependencies/TestDependencies.class:/Users/analulisboa/Projects/androidapps/buildSrc/build/classes/kotlin/main/dependencies/Versions.class

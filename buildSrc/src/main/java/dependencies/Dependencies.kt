@@ -1,0 +1,45 @@
+package dependencies
+
+object Dependencies {
+    val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
+    val constraintlayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}"
+    val dagger = "com.google.dagger:dagger:${Versions.dagger}"
+    val dagger_compiler = "com.google.dagger:dagger-compiler:${Versions.dagger}"
+    val firebase_firestore = "com.google.firebase:firebase-firestore-ktx:${Versions.firebase_firestore}"
+    val firebase_auth = "com.google.firebase:firebase-auth:${Versions.firebase_auth}"
+    val firebase_analytics = "com.google.firebase:firebase-analytics:${Versions.firebase_analytics}"
+    val firebase_crashlytics = "com.crashlytics.sdk.android:crashlytics:${Versions.firebase_crashlytics}"
+    val kotlin_standard_library = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}"
+    val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:${Versions.kotlin}"
+    val ktx = "androidx.core:core-ktx:${Versions.ktx}"
+    val kotlin_coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines_version}"
+    val kotlin_coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines_version}"
+    val kotlin_coroutines_play_services = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:${Versions.coroutines_play_services}"
+    val leak_canary = "com.squareup.leakcanary:leakcanary-android:${Versions.leak_canary}"
+    val lifecycle_runtime = "androidx.lifecycle:lifecycle-runtime:${Versions.lifecycle_version}"
+    val lifecycle_coroutines = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle_version}"
+    val lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle_version}"
+    val material_design = "com.google.android.material:material:${Versions.material_design}"
+    val material_dialogs = "com.afollestad.material-dialogs:core:${Versions.material_dialogs}"
+    val material_dialogs_input = "com.afollestad.material-dialogs:input:${Versions.material_dialogs}"
+    val markdown_processor = "com.yydcdut:markdown-processor:${Versions.markdown_processor}"
+    val navigation_fragment = "androidx.navigation:navigation-fragment-ktx:${Versions.nav_components}"
+    val navigation_runtime = "androidx.navigation:navigation-runtime:${Versions.nav_components}"
+    val navigation_ui = "androidx.navigation:navigation-ui-ktx:${Versions.nav_components}"
+    val navigation_dynamic = "androidx.navigation:navigation-dynamic-features-fragment:${Versions.nav_components}"
+    val play_core = "com.google.android.play:core:${Versions.play_core}"
+    val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit2_version}"
+    val retrofit_gson = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2_version}"
+    val room_runtime = "androidx.room:room-runtime:${Versions.room}"
+    val room_ktx = "androidx.room:room-ktx:${Versions.room}"
+    val room_compiler = "androidx.room:room-compiler:${Versions.room}"
+
+
+    val build_tools = "com.android.tools.build:gradle:${Versions.gradle}"
+    val kotlin_gradle_plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
+    val google_services = "com.google.gms:google-services:${Versions.play_services}"
+    val fabric = "io.fabric.tools:gradle:${Versions.fabric_version}"
+
+
+    val swipe_refresh_layout = "androidx.swiperefreshlayout:swiperefreshlayout:${Versions.swipe_refresh_layout}"
+}
