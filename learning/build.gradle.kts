@@ -39,17 +39,23 @@ android {
 }
 
 dependencies {
-    //kotlin
+
+    implementation(Dependencies.appcompat)
+    implementation(Dependencies.constraintlayout)
+    implementation(Dependencies.dagger)
+    kapt(Dependencies.dagger_compiler)
+    implementation(Dependencies.gson)
     implementation(Dependencies.kotlin_standard_library)
     implementation(Dependencies.kotlin_reflect)
     implementation(Dependencies.ktx)
-    implementation(Dependencies.appcompat)
+    implementation(Dependencies.legacy_support)
     implementation(Dependencies.material_design)
-    implementation(Dependencies.constraintlayout)
-
-    //dependencies
-    implementation(Dependencies.dagger)
-    kapt(Dependencies.dagger_compiler)
+    implementation(Dependencies.navigation_fragment)
+    implementation(Dependencies.navigation_ui)
+    implementation(Dependencies.navigation_dynamic)
+    implementation(Dependencies.room_runtime)
+    implementation(Dependencies.room_ktx)
+    kapt(Dependencies.room_compiler)
 
 
     //tests
