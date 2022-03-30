@@ -48,6 +48,8 @@ dependencies {
     implementation(Dependencies.lifecycle_viewModel)
     implementation(Dependencies.lifecycle_runtime)
     implementation(Dependencies.material_design)
+    implementation(Dependencies.retrofit)
+    implementation(Dependencies.retrofit_gson)
 
     androidTestImplementation(TestDependencies.androidx_test_ext)
     androidTestImplementation(TestDependencies.espresso_core)
