@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/learning" />
             <option value="$PROJECT_DIR$/libNetwork" />
+            <option value="$PROJECT_DIR$/mvi-animals" />
             <option value="$PROJECT_DIR$/task-this" />
             <option value="$PROJECT_DIR$/the-movie-challenge" />
           </set>
