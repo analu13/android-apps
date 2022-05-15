@@ -41,15 +41,18 @@ dependencies {
 
     implementation(Dependencies.appcompat)
     implementation(Dependencies.constraintlayout)
+    implementation(Dependencies.dagger)
     implementation(Dependencies.glide)
     implementation(Dependencies.ktx)
     implementation(Dependencies.kotlin_coroutines)
     implementation(Dependencies.kotlin_coroutines_android)
     implementation(Dependencies.lifecycle_viewModel)
     implementation(Dependencies.lifecycle_runtime)
+    implementation(Dependencies.lifecycle_compiler)
     implementation(Dependencies.material_design)
     implementation(Dependencies.retrofit)
     implementation(Dependencies.retrofit_gson)
+
 
     androidTestImplementation(TestDependencies.androidx_test_ext)
     androidTestImplementation(TestDependencies.espresso_core)

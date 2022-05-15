@@ -5,7 +5,7 @@ object Versions {
     val androidx_test_ext = "1.1.3"
     val appcompat = "1.4.1"
     val constraintlayout = "2.1.3"
-    val coroutines_version = "1.3.0"
+    val coroutines_version = "1.5.2"
     val coroutines_play_services = "1.3.2"
     val dagger = "2.41"
     val espresso_core = "3.4.0"
