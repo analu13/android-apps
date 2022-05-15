@@ -4,8 +4,9 @@ object Versions {
 
     val androidx_test_ext = "1.1.3"
     val appcompat = "1.4.1"
+    val core_ktx = "1.7.0"
     val constraintlayout = "2.1.3"
-    val coroutines_version = "1.3.0"
+    val coroutines_version = "1.5.2"
     val coroutines_play_services = "1.3.2"
     val dagger = "2.41"
     val espresso_core = "3.4.0"
@@ -22,9 +23,8 @@ object Versions {
     val junit4 = "4.13.2"
     val junit_jupiter_version = "5.6.0"
     val kotlin = "1.6.10"
-    val ktx = "1.7.0"
     val leak_canary = "2.0"
-    val lifecycle_version = "2.2.0"
+    val lifecycle_version = "2.4.1"
     val legacy_support = "1.0.0"
     val material_design = "1.5.0"
     val material_dialogs = "3.2.1"
@@ -38,5 +38,4 @@ object Versions {
     val swipe_refresh_layout = "1.1.0"
     val test_runner = "1.2.0"
     val test_core = "1.2.0"
-
 }
