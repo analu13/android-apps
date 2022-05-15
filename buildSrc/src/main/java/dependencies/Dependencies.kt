@@ -38,12 +38,10 @@ object Dependencies {
     val room_ktx = "androidx.room:room-ktx:${Versions.room}"
     val room_compiler = "androidx.room:room-compiler:${Versions.room}"
 
-
     val build_tools = "com.android.tools.build:gradle:${Versions.gradle}"
     val kotlin_gradle_plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
     val google_services = "com.google.gms:google-services:${Versions.play_services}"
     val fabric = "io.fabric.tools:gradle:${Versions.fabric_version}"
-
 
     val swipe_refresh_layout = "androidx.swiperefreshlayout:swiperefreshlayout:${Versions.swipe_refresh_layout}"
 }

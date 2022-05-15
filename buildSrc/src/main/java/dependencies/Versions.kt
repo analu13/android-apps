@@ -38,5 +38,4 @@ object Versions {
     val swipe_refresh_layout = "1.1.0"
     val test_runner = "1.2.0"
     val test_core = "1.2.0"
-
 }
