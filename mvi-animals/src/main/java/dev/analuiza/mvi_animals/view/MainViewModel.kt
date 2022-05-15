@@ -12,7 +12,7 @@ import kotlinx.coroutines.launch
 
 class MainViewModel(private val repo: AnimalRepo) : ViewModel() {
 
-    private val userIntent = Channel<MainIntent>(Channel.UNLIMITED)
+    val userIntent = Channel<MainIntent>(Channel.UNLIMITED)
     private val _state = MutableStateFlow<MainState>(MainState.Idle)
     val state: StateFlow<MainState>
         get() = _state

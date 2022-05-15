@@ -7,8 +7,7 @@ import dev.analuiza.mvi_animals.api.AnimalRepo
 import java.lang.IllegalArgumentException
 
 class ViewModelFactory(private val api: AnimalApi) : ViewModelProvider.Factory {
-    override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-        if (modelClass.isAssignableFrom(MainViewModel::class.java)) MainViewModel(AnimalRepo(api))
-        throw IllegalArgumentException("Unknown Class Name")
-    }
+    override fun <T : ViewModel> create(modelClass: Class<T>) =
+        if (modelClass.isAssignableFrom(MainViewModel::class.java)) MainViewModel(AnimalRepo(api)) as T
+        else throw IllegalArgumentException("Unknown Class Name")
 }

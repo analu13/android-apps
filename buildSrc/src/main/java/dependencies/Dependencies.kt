@@ -1,8 +1,10 @@
 package dependencies
 
 object Dependencies {
-    val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
-    val constraintlayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}"
+
+    val coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines_version}"
+    val coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines_version}"
+    val coroutines_lifecycle = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle_version}"
     val dagger = "com.google.dagger:dagger:${Versions.dagger}"
     val dagger_compiler = "com.google.dagger:dagger-compiler:${Versions.dagger}"
     val firebase_firestore = "com.google.firebase:firebase-firestore-ktx:${Versions.firebase_firestore}"
@@ -13,19 +15,12 @@ object Dependencies {
     val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
     val kotlin_standard_library = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}"
     val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:${Versions.kotlin}"
-    val ktx = "androidx.core:core-ktx:${Versions.ktx}"
-    val kotlin_coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines_version}"
-    val kotlin_coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines_version}"
     val kotlin_coroutines_play_services = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:${Versions.coroutines_play_services}"
     val legacy_support = "androidx.legacy:legacy-support-v4:${Versions.legacy_support}"
     val leak_canary = "com.squareup.leakcanary:leakcanary-android:${Versions.leak_canary}"
-    val lifecycle_coroutines = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle_version}"
-    val lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle_version}"
-    val lifecycle_viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle_version}"
-    val lifecycle_runtime = "androidx.lifecycle:lifecycle-runtime:${Versions.lifecycle_version}"
-    val material_design = "com.google.android.material:material:${Versions.material_design}"
-    val material_dialogs = "com.afollestad.material-dialogs:core:${Versions.material_dialogs}"
-    val material_dialogs_input = "com.afollestad.material-dialogs:input:${Versions.material_dialogs}"
+    val lifecycle_viewModel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle_version}"
+    val lifecycle_runtime_ktx = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycle_version}"
+    val lifecycle_livedata_ktx = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle_version}"
     val markdown_processor = "com.yydcdut:markdown-processor:${Versions.markdown_processor}"
     val navigation_fragment = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation_components}"
     val navigation_runtime = "androidx.navigation:navigation-runtime:${Versions.navigation_components}"
@@ -37,11 +32,9 @@ object Dependencies {
     val room_runtime = "androidx.room:room-runtime:${Versions.room}"
     val room_ktx = "androidx.room:room-ktx:${Versions.room}"
     val room_compiler = "androidx.room:room-compiler:${Versions.room}"
-
-    val build_tools = "com.android.tools.build:gradle:${Versions.gradle}"
+    val gradle_build_tools = "com.android.tools.build:gradle:${Versions.gradle}"
     val kotlin_gradle_plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
     val google_services = "com.google.gms:google-services:${Versions.play_services}"
     val fabric = "io.fabric.tools:gradle:${Versions.fabric_version}"
-
     val swipe_refresh_layout = "androidx.swiperefreshlayout:swiperefreshlayout:${Versions.swipe_refresh_layout}"
 }

@@ -5,7 +5,7 @@
     android:layout_height="100dp">
 
     <ImageView
-        android:id="@+id/imageViewAnimalImage"
+        android:id="@+id/ivAnimalImage"
         android:layout_width="100dp"
         android:layout_height="0dp"
         android:padding="4dp"
@@ -23,11 +23,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:text="@string/animal_name"
-        app:layout_constraintStart_toEndOf="@id/imageViewAnimalImage"
+        app:layout_constraintStart_toEndOf="@id/ivAnimalImage"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewAnimalLocation"
+        android:id="@+id/tvAnimalLocation"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/animal_location"

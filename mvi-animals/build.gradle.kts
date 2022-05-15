@@ -1,5 +1,5 @@
 import dependencies.Dependencies
-import dependencies.TestDependencies
+import dependencies.StandardLibraries
 
 plugins {
     id("com.android.application")
@@ -38,33 +38,27 @@ android {
     }
 
     buildFeatures {
-        dataBinding = true
         viewBinding = true
     }
-
 }
 
 dependencies {
 
-    implementation(Dependencies.appcompat)
-    implementation(Dependencies.build_tools)
-    implementation(Dependencies.constraintlayout)
-    implementation(Dependencies.dagger)
+    implementation(StandardLibraries.appcompat)
+    implementation(StandardLibraries.core_ktx)
+    implementation(StandardLibraries.constraintlayout)
+    implementation(StandardLibraries.material_design)
+
+    implementation(Dependencies.coroutines_core)
+    implementation(Dependencies.coroutines_android)
     implementation(Dependencies.glide)
-    implementation(Dependencies.ktx)
-    implementation(Dependencies.kotlin_gradle_plugin)
-    implementation(Dependencies.kotlin_standard_library)
-    implementation(Dependencies.kotlin_coroutines)
-    implementation(Dependencies.kotlin_coroutines_android)
-    implementation(Dependencies.legacy_support)
-    implementation(Dependencies.lifecycle_viewModel)
-    implementation(Dependencies.lifecycle_runtime)
-    implementation(Dependencies.lifecycle_compiler)
-    implementation(Dependencies.material_design)
+    implementation(Dependencies.lifecycle_viewModel_ktx)
+    implementation(Dependencies.lifecycle_runtime_ktx)
+    implementation(Dependencies.lifecycle_livedata_ktx)
     implementation(Dependencies.retrofit)
     implementation(Dependencies.retrofit_gson)
 
-    androidTestImplementation(TestDependencies.androidx_test_ext)
-    androidTestImplementation(TestDependencies.espresso_core)
-    testImplementation(TestDependencies.junit4)
+    androidTestImplementation(StandardLibraries.androidx_test_ext)
+    androidTestImplementation(StandardLibraries.espresso_core)
+    testImplementation(StandardLibraries.junit4)
 }
